@@ -20,30 +20,45 @@ public class class3 {
 //        for(int i =0;i<=a;i++){
 //            System.out.println("Ram");
 //        }
-      int i =0;
-      while(i<=100){
-          System.out.println(i);
-          i++;
+//      int i =0;
+//      while(i<=100){
+//          System.out.println(i);
+//          i++;
+//
+//      }
+//      int j = 2;
+//      while (j<=100)
+//      {
+//          System.out.println(j);
+//          j=j+2;
+//      }
+//      int y=0;
+//      while (y<100){
+//          y++;
+//          System.out.println(y);
+//          y++;
+//      }
+//      System.out.println("enter a number : ");
+//      int a = sc.nextInt();
+//      int x = 0;
+//      while (x<a){
+//          System.out.println("ram");
+//          x++;
+//      }
+      for(int i =0;i<=100;i++){
+          if(i%3==0 && i%5==0){
+              System.out.println("fizzbuzz");
+          }
+          else if(i%3==0){
+              System.out.println("fizz");
+          }
+          else if(i%5==0){
+              System.out.println("buzz");
+          }
+          else{
+              System.out.println(i);
+          }
 
-      }
-      int j = 2;
-      while (j<=100)
-      {
-          System.out.println(j);
-          j=j+2;
-      }
-      int y=0;
-      while (y<100){
-          y++;
-          System.out.println(y);
-          y++;
-      }
-      System.out.println("enter a number : ");
-      int a = sc.nextInt();
-      int x = 0;
-      while (x<a){
-          System.out.println("ram");
-          x++;
       }
     }
 }
